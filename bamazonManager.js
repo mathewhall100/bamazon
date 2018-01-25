@@ -60,8 +60,7 @@ inquirer.prompt({
 
 function viewProducts() {
 
-	var query = connection.query("SELECT item_id AS ID, item_name AS PRODUCT, department_name AS DEPARTMENT, FORMAT(price, 2) AS PRICE, stock_quantity AS QUANTITY, FORMAT(product_sales, 2) AS TOTAL_SALES " + 
-		"FROM products ORDER BY DEPARTMENT", function(err, res) {
+	var query = connection.query(, function(err, res) {
 		if (err) throw err;
 
 		console.log("\nDisplaying all products:");
