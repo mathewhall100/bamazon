@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Week 13 homework. Online store with mySQL",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathewhall100/bamazon.git"
+  },
+  "author": "mathew hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathewhall100/bamazon/issues"
+  },
+  "homepage": "https://github.com/mathewhall100/bamazon#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^5.0.1",
+    "mysql": "^2.15.0"
+  }
+}
